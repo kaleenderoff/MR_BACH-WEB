@@ -79,7 +79,7 @@ header img {
     margin: 10px; /* Espaciado entre cada item */
     padding: 15px;
     text-align: center;
-    width: calc(33.333% - 20px); /* 3 elementos por fila, restando margen */
+    width: calc(33.333% - 60px); /* 3 elementos por fila, restando margen */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
 }
@@ -88,9 +88,9 @@ header img {
     transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
 }
 
-.instrument-image {
-    width: 240px; /* Ajusta el ancho deseado */
-    height: 240px; /* Ajusta la altura deseada */
+.instrument-imame {
+    width: auto; /* Ajusta el ancho deseado */
+    height: auto; /* Ajusta la altura deseada */
     object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
     margin-bottom: 10px;
 }
@@ -110,6 +110,17 @@ header img {
 .download-button:hover {
     transform: scale(1.1); 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #27293e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.p-footer-developer {
+    color: #fc0;
 }
 
 @media (max-width: 768px) {
