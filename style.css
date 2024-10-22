@@ -140,4 +140,20 @@ li {
     padding-left: 0.5rem; 
 }
 
+@media (max-width: 768px) {
+    header img {
+        width: 150px; /* Ajusta el tamaño del logo */
+        height: 150px;
+    }
+
+    nav ul li {
+        display: block; /* Cambia a bloque para que se apilen */
+        margin: 10px 0;
+    }
+
+    .download-button {
+        padding: 10px 20px; /* Ajusta el padding */
+    }
+}
+
 
